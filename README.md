@@ -46,5 +46,9 @@ If the price fails to increase to the user-defined level and returns to the open
 ### Closing the Long Position with Losses:
 In the event of an immediate price decrease from the opening price, resulting in a breach of the bottom of the pullback candle, the bot should promptly close the Long position at 100%.
 
+## [historial data and signals, realtime usdt pair tokens info API](#background)
+
+`curl --location https://commune-predict-backend-1.onrender.com/token1min`
+`curl --location https://commune-predict-backend-1.onrender.com/realtimetokens`
 
 
